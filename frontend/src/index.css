@@ -1,0 +1,144 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+  @apply font-sans transition-colors duration-300 scroll-smooth;
+}
+
+.dark {
+  @apply bg-dark-bg text-dark-text;
+}
+
+.light {
+  @apply bg-light-bg text-light-text;
+}
+
+.card {
+  @apply rounded-xl shadow-card-glow p-6 mb-4 transform transition-all duration-300 hover:shadow-glow backdrop-blur-sm;
+}
+
+.dark .card {
+  @apply bg-dark-card bg-opacity-80;
+}
+
+.light .card {
+  @apply bg-light-card bg-opacity-90;
+}
+
+.button {
+  @apply px-4 py-2 rounded-lg text-white font-medium transition-all duration-200 hover:shadow-glow relative overflow-hidden bg-gradient-primary;
+}
+
+.button-danger {
+  @apply bg-danger hover:bg-red-700;
+}
+
+.input {
+  @apply p-2 rounded-lg border-none focus:ring-2 focus:ring-primary w-full transition-all duration-200;
+}
+
+.dark .input {
+  @apply bg-dark-card text-dark-text;
+}
+
+.light .input {
+  @apply bg-light-card text-light-text;
+}
+
+.chart-container {
+  @apply p-4 rounded-lg;
+}
+
+.dark .chart-container {
+  @apply bg-dark-card bg-opacity-80;
+}
+
+.light .chart-container {
+  @apply bg-light-card bg-opacity-90;
+}
+
+.api-status-success {
+  @apply text-green-400;
+}
+
+.api-status-failed {
+  @apply text-danger;
+}
+
+.spinner-container {
+  @apply flex flex-col items-center justify-center h-48;
+}
+
+.navbar {
+  @apply sticky top-0 z-50;
+}
+
+.toast-custom {
+  @apply rounded-lg shadow-glow;
+}
+
+.ripple::after {
+  content: '';
+  @apply absolute inset-0 bg-white opacity-30 rounded-lg;
+  animation: ripple 0.6s ease-out;
+}
+
+@keyframes ripple {
+  from { transform: scale(0); opacity: 0.5; }
+  to { transform: scale(2); opacity: 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.glitch {
+  position: relative;
+}
+
+.glitch:hover::before,
+.glitch:hover::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch:hover::before {
+  color: #ff6384;
+  animation: glitch-left 0.3s infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+.glitch:hover::after {
+  color: #36a2eb;
+  animation: glitch-right 0.3s infinite;
+  clip-path: polygon(0 66%, 100% 66%, 100% 100%, 0 100%);
+}
+
+@keyframes glitch-left {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes glitch-right {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(2px, -2px); }
+  40% { transform: translate(2px, 2px); }
+  60% { transform: translate(-2px, -2px); }
+  80% { transform: translate(-2px, 2px); }
+  100% { transform: translate(0, 0); }
+}
