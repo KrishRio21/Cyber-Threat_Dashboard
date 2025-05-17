@@ -31,8 +31,9 @@ function Analytics() {
         }
 
         // Fetch data for recent IPs
+        const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
         const responses = await Promise.all(
-          recentIPs.map(ip => axios.get(`http://localhost:8000/threats/ip/${ip}`))
+          recentIPs.map(ip => axios.get(`${apiUrl}/threats/ip/${ip}`))
         );
         setData(responses.map(res => res.data));
       } catch (err) {

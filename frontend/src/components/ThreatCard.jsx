@@ -25,7 +25,8 @@ function ThreatCard({ ip: propIp }) {
       setLoading(true);
       setError(null);
       try {
-        const response = await axios.get(`http://localhost:8000/threats/ip/${ip}`);
+        const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+        const response = await axios.get(`${apiUrl}/threats/ip/${ip}`);
         setData(response.data);
         // Save to localStorage history
         const historyKey = `history_${ip}`;
