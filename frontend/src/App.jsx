@@ -29,7 +29,7 @@ function ThemeToggle() {
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <div className="min-h-screen">
           <nav className="navbar p-4 shadow-lg">
             <div className="container mx-auto flex justify-between items-center">

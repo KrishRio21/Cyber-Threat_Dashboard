@@ -1438,3 +1438,357 @@
 2025-05-16 17:47:47,626 - INFO - Returning cached Feodo Tracker data for 49.34.68.99
 2025-05-16 17:47:47,626 - INFO - Returning cached IPInfo data for 49.34.68.99
 2025-05-16 17:47:47,626 - INFO - Threat score for 49.34.68.99: 0.0
+2025-05-17 19:06:58,229 - INFO - Root endpoint accessed
+2025-05-17 19:07:08,776 - INFO - Root endpoint accessed
+2025-05-17 19:13:13,380 - INFO - Processing threat request for IP: 8.8.8.9
+2025-05-17 19:13:13,380 - INFO - Fetching AbuseIPDB data for 8.8.8.9
+2025-05-17 19:13:19,079 - INFO - AbuseIPDB data fetched for 8.8.8.9: {'confidence_score': 0, 'total_reports': 0, 'country': 'US', 'error': None}
+2025-05-17 19:13:19,079 - INFO - Fetching VirusTotal data for 8.8.8.9
+2025-05-17 19:13:19,878 - INFO - VirusTotal data fetched for 8.8.8.9: {'malicious_count': 0, 'reputation': -1, 'scan_results': {'Acronis': 'clean', '0xSI_f33d': 'unrated', 'Abusix': 'clean', 'ADMINUSLabs': 'clean', 'Axur': 'unrated', 'Criminal IP': 'clean', 'AILabs (MONITORAPP)': 'clean', 'AlienVault': 'clean', 'alphaMountain.ai': 'unrated', 'AlphaSOC': 'unrated', 'Antiy-AVL': 'clean', 'ArcSight Threat Intelligence': 'unrated', 'AutoShun': 'unrated', 'benkow.cc': 'clean', 'Bfore.Ai PreCrime': 'unrated', 'BitDefender': 'clean', 'Bkav': 'unrated', 'Blueliv': 'clean', 'Certego': 'clean', 'Chong Lua Dao': 'clean', 'CINS Army': 'clean', 'Cluster25': 'unrated', 'CRDF': 'clean', 'CSIS Security Group': 'unrated', 'Snort IP sample list': 'clean', 'CMC Threat Intelligence': 'clean', 'Cyan': 'unrated', 'Cyble': 'clean', 'CyRadar': 'clean', 'DNS8': 'clean', 'Dr.Web': 'clean', 'Ermes': 'unrated', 'ESET': 'clean', 'ESTsecurity': 'clean', 'EmergingThreats': 'clean', 'Emsisoft': 'clean', 'Forcepoint ThreatSeeker': 'unrated', 'Fortinet': 'clean', 'G-Data': 'clean', 'GCP Abuse Intelligence': 'unrated', 'Google Safebrowsing': 'clean', 'GreenSnow': 'clean', 'Gridinsoft': 'unrated', 'Heimdal Security': 'clean', 'Hunt.io Intelligence': 'unrated', 'IPsum': 'clean', 'Juniper Networks': 'clean', 'Kaspersky': 'unrated', 'Lionic': 'clean', 'Lumu': 'unrated', 'MalwarePatrol': 'clean', 'MalwareURL': 'unrated', 'Malwared': 'clean', 'Mimecast': 'unrated', 'Netcraft': 'unrated', 'OpenPhish': 'clean', 'Phishing Database': 'clean', 'PhishFort': 'unrated', 'PhishLabs': 'unrated', 'Phishtank': 'clean', 'PREBYTES': 'clean', 'PrecisionSec': 'unrated', 'Quick Heal': 'clean', 'Quttera': 'clean', 'SafeToOpen': 'unrated', 'Sansec eComscan': 'unrated', 'Scantitan': 'clean', 'SCUMWARE.org': 'clean', 'Seclookup': 'clean', 'SecureBrain': 'unrated', 'SOCRadar': 'unrated', 'Sophos': 'clean', 'Spam404': 'clean', 'StopForumSpam': 'clean', 'Sucuri SiteCheck': 'clean', 'ThreatHive': 'clean', 'Threatsourcing': 'clean', 'Trustwave': 'clean', 'Underworld': 'unrated', 'URLhaus': 'clean', 'URLQuery': 'unrated', 'Viettel Threat Intelligence': 'clean', 'VIPRE': 'unrated', 'VX Vault': 'clean', 'ViriBack': 'clean', 'Webroot': 'clean', 'Yandex Safebrowsing': 'clean', 'ZeroCERT': 'clean', 'desenmascara.me': 'clean', 'malwares.com URL checker': 'clean', 'securolytics': 'clean', 'Xcitium Verdict Cloud': 'clean', 'zvelo': 'unrated', 'ZeroFox': 'unrated'}, 'error': None}
+2025-05-17 19:13:19,878 - INFO - Fetching Feodo Tracker blocklist for 8.8.8.9
+2025-05-17 19:13:20,179 - INFO - Feodo Tracker IPs loaded: 1 IPs
+2025-05-17 19:13:20,179 - INFO - Feodo Tracker result for 8.8.8.9: {'is_malicious': False, 'source': 'Feodo Tracker', 'confidence_level': 0, 'malware_types': [], 'error': None}
+2025-05-17 19:13:20,179 - INFO - Fetching IPInfo data for 8.8.8.9
+2025-05-17 19:13:20,612 - INFO - IPInfo data fetched for 8.8.8.9: {'latitude': 38.0088, 'longitude': -122.1175, 'city': 'Mountain View', 'country': 'US', 'error': None}
+2025-05-17 19:13:20,612 - INFO - Threat score for 8.8.8.9: 0.0
+2025-05-17 19:17:49,437 - INFO - Processing threat request for IP: 8.8.8.9
+2025-05-17 19:17:49,437 - INFO - Returning cached AbuseIPDB data for 8.8.8.9
+2025-05-17 19:17:49,437 - INFO - Returning cached VirusTotal data for 8.8.8.9
+2025-05-17 19:17:49,437 - INFO - Returning cached Feodo Tracker data for 8.8.8.9
+2025-05-17 19:17:49,438 - INFO - Returning cached IPInfo data for 8.8.8.9
+2025-05-17 19:17:49,438 - INFO - Threat score for 8.8.8.9: 0.0
+2025-05-17 19:17:49,443 - INFO - Processing threat request for IP: 8.8.8.9
+2025-05-17 19:17:49,443 - INFO - Returning cached AbuseIPDB data for 8.8.8.9
+2025-05-17 19:17:49,443 - INFO - Returning cached VirusTotal data for 8.8.8.9
+2025-05-17 19:17:49,443 - INFO - Returning cached Feodo Tracker data for 8.8.8.9
+2025-05-17 19:17:49,443 - INFO - Returning cached IPInfo data for 8.8.8.9
+2025-05-17 19:17:49,443 - INFO - Threat score for 8.8.8.9: 0.0
+2025-05-17 19:17:49,445 - INFO - Processing threat request for IP: 8.8.8.9
+2025-05-17 19:17:49,445 - INFO - Returning cached AbuseIPDB data for 8.8.8.9
+2025-05-17 19:17:49,445 - INFO - Returning cached VirusTotal data for 8.8.8.9
+2025-05-17 19:17:49,446 - INFO - Returning cached Feodo Tracker data for 8.8.8.9
+2025-05-17 19:17:49,446 - INFO - Returning cached IPInfo data for 8.8.8.9
+2025-05-17 19:17:49,446 - INFO - Threat score for 8.8.8.9: 0.0
+2025-05-17 19:18:19,759 - INFO - Processing threat request for IP: 55.4.5.5
+2025-05-17 19:18:19,760 - INFO - Fetching AbuseIPDB data for 55.4.5.5
+2025-05-17 19:18:20,905 - INFO - AbuseIPDB data fetched for 55.4.5.5: {'confidence_score': 0, 'total_reports': 0, 'country': 'US', 'error': None}
+2025-05-17 19:18:20,905 - INFO - Fetching VirusTotal data for 55.4.5.5
+2025-05-17 19:18:21,732 - INFO - VirusTotal data fetched for 55.4.5.5: {'malicious_count': 0, 'reputation': 0, 'scan_results': {'Acronis': 'unrated', '0xSI_f33d': 'unrated', 'Abusix': 'unrated', 'ADMINUSLabs': 'unrated', 'Axur': 'unrated', 'Criminal IP': 'unrated', 'AILabs (MONITORAPP)': 'unrated', 'AlienVault': 'unrated', 'alphaMountain.ai': 'unrated', 'AlphaSOC': 'unrated', 'Antiy-AVL': 'unrated', 'ArcSight Threat Intelligence': 'unrated', 'AutoShun': 'unrated', 'benkow.cc': 'unrated', 'Bfore.Ai PreCrime': 'unrated', 'BitDefender': 'unrated', 'Bkav': 'unrated', 'Blueliv': 'unrated', 'Certego': 'unrated', 'Chong Lua Dao': 'unrated', 'CINS Army': 'unrated', 'Cluster25': 'unrated', 'CRDF': 'unrated', 'CSIS Security Group': 'unrated', 'Snort IP sample list': 'unrated', 'CMC Threat Intelligence': 'unrated', 'Cyan': 'unrated', 'Cyble': 'unrated', 'CyRadar': 'unrated', 'DNS8': 'unrated', 'Dr.Web': 'unrated', 'Ermes': 'unrated', 'ESET': 'unrated', 'ESTsecurity': 'unrated', 'EmergingThreats': 'unrated', 'Emsisoft': 'unrated', 'Forcepoint ThreatSeeker': 'unrated', 'Fortinet': 'unrated', 'G-Data': 'unrated', 'GCP Abuse Intelligence': 'unrated', 'Google Safebrowsing': 'unrated', 'GreenSnow': 'unrated', 'Gridinsoft': 'unrated', 'Heimdal Security': 'unrated', 'Hunt.io Intelligence': 'unrated', 'IPsum': 'unrated', 'Juniper Networks': 'unrated', 'Kaspersky': 'unrated', 'Lionic': 'unrated', 'Lumu': 'unrated', 'MalwarePatrol': 'unrated', 'MalwareURL': 'unrated', 'Malwared': 'unrated', 'Mimecast': 'unrated', 'Netcraft': 'unrated', 'OpenPhish': 'unrated', 'Phishing Database': 'unrated', 'PhishFort': 'unrated', 'PhishLabs': 'unrated', 'Phishtank': 'unrated', 'PREBYTES': 'unrated', 'PrecisionSec': 'unrated', 'Quick Heal': 'unrated', 'Quttera': 'unrated', 'SafeToOpen': 'unrated', 'Sansec eComscan': 'unrated', 'Scantitan': 'unrated', 'SCUMWARE.org': 'unrated', 'Seclookup': 'unrated', 'SecureBrain': 'unrated', 'SOCRadar': 'unrated', 'Sophos': 'unrated', 'Spam404': 'unrated', 'StopForumSpam': 'unrated', 'Sucuri SiteCheck': 'unrated', 'ThreatHive': 'unrated', 'Threatsourcing': 'unrated', 'Trustwave': 'unrated', 'Underworld': 'unrated', 'URLhaus': 'unrated', 'URLQuery': 'unrated', 'Viettel Threat Intelligence': 'unrated', 'VIPRE': 'unrated', 'VX Vault': 'unrated', 'ViriBack': 'unrated', 'Webroot': 'unrated', 'Yandex Safebrowsing': 'unrated', 'ZeroCERT': 'unrated', 'desenmascara.me': 'unrated', 'malwares.com URL checker': 'unrated', 'securolytics': 'unrated', 'Xcitium Verdict Cloud': 'unrated', 'zvelo': 'unrated', 'ZeroFox': 'unrated'}, 'error': None}
+2025-05-17 19:18:21,732 - INFO - Fetching Feodo Tracker blocklist for 55.4.5.5
+2025-05-17 19:18:22,115 - INFO - Feodo Tracker IPs loaded: 1 IPs
+2025-05-17 19:18:22,116 - INFO - Feodo Tracker result for 55.4.5.5: {'is_malicious': False, 'source': 'Feodo Tracker', 'confidence_level': 0, 'malware_types': [], 'error': None}
+2025-05-17 19:18:22,116 - INFO - Fetching IPInfo data for 55.4.5.5
+2025-05-17 19:18:22,591 - INFO - IPInfo data fetched for 55.4.5.5: {'latitude': 31.5587, 'longitude': -110.3441, 'city': 'Sierra Vista', 'country': 'US', 'error': None}
+2025-05-17 19:18:22,591 - INFO - Threat score for 55.4.5.5: 0.0
+2025-05-17 19:18:22,591 - INFO - Processing threat request for IP: 55.4.5.5
+2025-05-17 19:18:22,598 - INFO - Returning cached AbuseIPDB data for 55.4.5.5
+2025-05-17 19:18:22,598 - INFO - Returning cached VirusTotal data for 55.4.5.5
+2025-05-17 19:18:22,598 - INFO - Returning cached Feodo Tracker data for 55.4.5.5
+2025-05-17 19:18:22,598 - INFO - Returning cached IPInfo data for 55.4.5.5
+2025-05-17 19:18:22,598 - INFO - Threat score for 55.4.5.5: 0.0
+2025-05-17 19:18:22,600 - INFO - Processing threat request for IP: 55.4.5.5
+2025-05-17 19:18:22,600 - INFO - Returning cached AbuseIPDB data for 55.4.5.5
+2025-05-17 19:18:22,600 - INFO - Returning cached VirusTotal data for 55.4.5.5
+2025-05-17 19:18:22,600 - INFO - Returning cached Feodo Tracker data for 55.4.5.5
+2025-05-17 19:18:22,600 - INFO - Returning cached IPInfo data for 55.4.5.5
+2025-05-17 19:18:22,600 - INFO - Threat score for 55.4.5.5: 0.0
+2025-05-17 19:25:33,220 INFO Received threat intel request for IP: 8.8.8.8
+2025-05-17 19:25:33,220 INFO Querying AbuseIPDB for 8.8.8.8
+2025-05-17 19:25:34,107 INFO Querying VirusTotal for 8.8.8.8
+2025-05-17 19:25:34,848 INFO Querying Feodo Tracker for 8.8.8.8
+2025-05-17 19:25:35,240 INFO Querying IPInfo for 8.8.8.8
+2025-05-17 19:25:35,721 INFO Threat score for 8.8.8.8: 0.0
+2025-05-17 19:25:35,725 INFO Received threat intel request for IP: 8.8.8.8
+2025-05-17 19:25:35,725 INFO AbuseIPDB cache hit for 8.8.8.8
+2025-05-17 19:25:35,725 INFO VirusTotal cache hit for 8.8.8.8
+2025-05-17 19:25:35,725 INFO Feodo Tracker cache hit for 8.8.8.8
+2025-05-17 19:25:35,725 INFO IPInfo cache hit for 8.8.8.8
+2025-05-17 19:25:35,726 INFO Threat score for 8.8.8.8: 0.0
+2025-05-17 19:29:46,884 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:29:46,884 - INFO - Fetching AbuseIPDB data for 8.8.8.8
+2025-05-17 19:29:47,759 - INFO - Fetching VirusTotal data for 8.8.8.8
+2025-05-17 19:29:48,459 - INFO - Fetching Feodo Tracker blocklist for 8.8.8.8
+2025-05-17 19:29:48,901 - INFO - Fetching IPInfo data for 8.8.8.8
+2025-05-17 19:29:49,291 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:29:49,291 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:29:49,291 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:29:49,300 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:29:49,300 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:29:49,300 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:29:49,300 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:32:50,614 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:32:50,614 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:32:50,614 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:32:50,614 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:32:50,614 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:32:50,614 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:32:50,617 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:32:50,617 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:32:50,617 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:32:50,617 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:32:50,618 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:32:50,618 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:33:47,144 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:33:47,144 - INFO - Fetching AbuseIPDB data for 49.47.249.175
+2025-05-17 19:33:48,705 - INFO - Fetching VirusTotal data for 49.47.249.175
+2025-05-17 19:33:49,427 - INFO - Fetching Feodo Tracker blocklist for 49.47.249.175
+2025-05-17 19:33:49,830 - INFO - Fetching IPInfo data for 49.47.249.175
+2025-05-17 19:33:50,347 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:33:50,355 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:33:50,355 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:33:50,355 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:33:50,355 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:33:50,355 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:33:50,355 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:35:13,893 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:35:13,893 - INFO - Fetching AbuseIPDB data for 49.47.249.85
+2025-05-17 19:35:15,577 - INFO - Fetching VirusTotal data for 49.47.249.85
+2025-05-17 19:35:16,368 - INFO - Fetching Feodo Tracker blocklist for 49.47.249.85
+2025-05-17 19:35:16,625 - INFO - Fetching IPInfo data for 49.47.249.85
+2025-05-17 19:35:17,046 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:35:25,374 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:35:25,375 - INFO - Fetching AbuseIPDB data for 49.47.49.85
+2025-05-17 19:35:26,783 - INFO - Fetching VirusTotal data for 49.47.49.85
+2025-05-17 19:35:27,581 - INFO - Fetching Feodo Tracker blocklist for 49.47.49.85
+2025-05-17 19:35:27,806 - INFO - Fetching IPInfo data for 49.47.49.85
+2025-05-17 19:35:28,189 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:36:51,786 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:36:51,786 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:36:51,786 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:36:51,786 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:36:51,787 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:36:51,787 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:36:51,789 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:36:51,789 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:36:51,790 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:36:51,790 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:36:51,790 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:36:51,790 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:37:54,710 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:37:54,711 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:37:54,711 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:37:54,711 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:37:54,711 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:37:54,711 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:37:54,712 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:37:54,712 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:37:54,712 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:37:54,712 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:37:54,712 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:37:54,712 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:37:54,712 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:37:54,713 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:37:54,713 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:37:54,713 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:37:54,713 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:37:54,713 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:37:54,713 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:37:54,714 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:37:54,714 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:37:54,715 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:37:54,715 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:37:54,715 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:37:54,719 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:37:54,720 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:37:54,720 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:37:54,720 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:37:54,720 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:37:54,720 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:37:54,720 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:37:54,721 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:37:54,721 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:37:54,721 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:37:54,721 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:37:54,721 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:37:54,722 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:37:54,722 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:37:54,722 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:37:54,722 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:37:54,722 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:37:54,722 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:37:54,722 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:37:54,723 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:37:54,723 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:37:54,723 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:37:54,723 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:37:54,724 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:37:59,428 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:37:59,428 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:37:59,428 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:37:59,428 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:37:59,428 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:37:59,428 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:37:59,428 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:37:59,428 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:37:59,429 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:37:59,429 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:37:59,429 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:37:59,429 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:37:59,429 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:37:59,429 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:37:59,430 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:37:59,430 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:37:59,430 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:37:59,430 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:37:59,430 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:37:59,430 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:37:59,430 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:37:59,430 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:37:59,430 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:37:59,430 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:37:59,434 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:37:59,434 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:37:59,435 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:37:59,435 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:37:59,435 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:37:59,435 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:37:59,436 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:37:59,436 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:37:59,436 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:37:59,436 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:37:59,436 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:37:59,436 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:37:59,436 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:37:59,437 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:37:59,437 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:37:59,437 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:37:59,437 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:37:59,437 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:37:59,437 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:37:59,437 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:37:59,438 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:37:59,438 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:37:59,438 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:37:59,439 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:42:11,976 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:42:11,977 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:42:11,977 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:42:11,978 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:42:11,978 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:42:11,978 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:42:11,981 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:42:11,982 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:42:11,982 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:42:11,982 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:42:11,982 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:42:11,982 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:42:59,145 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:42:59,145 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:42:59,145 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:42:59,146 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:42:59,146 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:42:59,146 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:42:59,146 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:42:59,146 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:42:59,146 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:42:59,147 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:42:59,147 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:42:59,147 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:42:59,150 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:42:59,150 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:42:59,151 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:42:59,151 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:42:59,151 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:42:59,151 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:42:59,151 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:42:59,151 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:42:59,152 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:42:59,152 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:42:59,152 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:42:59,152 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:42:59,155 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:42:59,156 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:42:59,156 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:42:59,156 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:42:59,157 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:42:59,157 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:42:59,157 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:42:59,157 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:42:59,157 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:42:59,157 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:42:59,157 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:42:59,158 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:42:59,161 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:42:59,161 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:42:59,161 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:42:59,161 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:42:59,161 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:42:59,161 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:42:59,161 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:42:59,163 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:42:59,163 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:42:59,163 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:42:59,163 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:42:59,164 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:43:00,866 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:43:00,866 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:43:00,866 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:43:00,866 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:43:00,867 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:43:00,867 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:43:00,867 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:43:00,867 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:43:00,868 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:43:00,868 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:43:00,868 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:43:00,868 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:43:00,868 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:43:00,868 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:43:00,869 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:43:00,869 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:43:00,869 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:43:00,869 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:43:00,870 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:43:00,870 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:43:00,870 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:43:00,870 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:43:00,870 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:43:00,871 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:43:00,876 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:43:00,877 - INFO - Processing threat request for IP: 49.47.249.175
+2025-05-17 19:43:00,877 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:43:00,877 - INFO - Processing threat request for IP: 8.8.8.8
+2025-05-17 19:43:00,877 - INFO - Processing threat request for IP: 49.47.49.85
+2025-05-17 19:43:00,877 - INFO - Returning cached AbuseIPDB data for 49.47.249.175
+2025-05-17 19:43:00,877 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:43:00,877 - INFO - Returning cached AbuseIPDB data for 8.8.8.8
+2025-05-17 19:43:00,878 - INFO - Returning cached AbuseIPDB data for 49.47.49.85
+2025-05-17 19:43:00,878 - INFO - Returning cached VirusTotal data for 49.47.249.175
+2025-05-17 19:43:00,878 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:43:00,878 - INFO - Returning cached VirusTotal data for 8.8.8.8
+2025-05-17 19:43:00,879 - INFO - Returning cached VirusTotal data for 49.47.49.85
+2025-05-17 19:43:00,879 - INFO - Returning cached Feodo Tracker data for 49.47.249.175
+2025-05-17 19:43:00,879 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:43:00,879 - INFO - Returning cached Feodo Tracker data for 8.8.8.8
+2025-05-17 19:43:00,879 - INFO - Returning cached Feodo Tracker data for 49.47.49.85
+2025-05-17 19:43:00,880 - INFO - Returning cached IPInfo data for 49.47.249.175
+2025-05-17 19:43:00,880 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:43:00,880 - INFO - Returning cached IPInfo data for 8.8.8.8
+2025-05-17 19:43:00,880 - INFO - Returning cached IPInfo data for 49.47.49.85
+2025-05-17 19:43:00,880 - INFO - Threat response for 49.47.249.175: threat_score=0.0
+2025-05-17 19:43:00,881 - INFO - Threat response for 8.8.8.8: threat_score=0.0
+2025-05-17 19:43:00,881 - INFO - Threat response for 49.47.49.85: threat_score=0.0
+2025-05-17 19:47:14,922 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:47:14,922 - INFO - Fetching AbuseIPDB data for 49.47.249.85
+2025-05-17 19:47:15,736 - INFO - Fetching VirusTotal data for 49.47.249.85
+2025-05-17 19:47:16,404 - INFO - Fetching Feodo Tracker blocklist for 49.47.249.85
+2025-05-17 19:47:16,878 - INFO - Fetching IPInfo data for 49.47.249.85
+2025-05-17 19:47:17,285 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:47:17,287 - INFO - Processing threat request for IP: 49.47.249.85
+2025-05-17 19:47:17,288 - INFO - Returning cached AbuseIPDB data for 49.47.249.85
+2025-05-17 19:47:17,289 - INFO - Returning cached VirusTotal data for 49.47.249.85
+2025-05-17 19:47:17,289 - INFO - Returning cached Feodo Tracker data for 49.47.249.85
+2025-05-17 19:47:17,289 - INFO - Returning cached IPInfo data for 49.47.249.85
+2025-05-17 19:47:17,289 - INFO - Threat response for 49.47.249.85: threat_score=0.0
+2025-05-17 19:49:51,211 - INFO - Processing threat request for IP: 55.4.5.5
+2025-05-17 19:49:51,211 - INFO - Fetching AbuseIPDB data for 55.4.5.5
+2025-05-17 19:49:51,986 - INFO - Fetching VirusTotal data for 55.4.5.5
+2025-05-17 19:49:52,709 - INFO - Fetching Feodo Tracker blocklist for 55.4.5.5
+2025-05-17 19:49:52,976 - INFO - Fetching IPInfo data for 55.4.5.5
+2025-05-17 19:49:53,403 - INFO - Threat response for 55.4.5.5: threat_score=0.0
+2025-05-17 19:49:53,407 - INFO - Processing threat request for IP: 55.4.5.5
+2025-05-17 19:49:53,407 - INFO - Returning cached AbuseIPDB data for 55.4.5.5
+2025-05-17 19:49:53,407 - INFO - Returning cached VirusTotal data for 55.4.5.5
+2025-05-17 19:49:53,408 - INFO - Returning cached Feodo Tracker data for 55.4.5.5
+2025-05-17 19:49:53,408 - INFO - Returning cached IPInfo data for 55.4.5.5
+2025-05-17 19:49:53,408 - INFO - Threat response for 55.4.5.5: threat_score=0.0
