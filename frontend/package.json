@@ -16,7 +16,8 @@
     "react-router-dom": "^6.26.2",
     "react-spinners": "^0.14.1",
     "react-toastify": "^10.0.6",
-    "recharts": "^2.12.7"
+    "recharts": "^2.12.7",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
@@ -27,8 +28,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve dist -s -L -p $PORT"
   }
 }
