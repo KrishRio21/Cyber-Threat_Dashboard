@@ -23,15 +23,15 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Cyber Threat Intelligence API")
 
-# CORS setup to allow requests from frontend at localhost:5173
+# CORS setup to allow requests from frontend
 origins = [
-    "http://localhost:5173",  # Your React frontend origin
-    # Add other allowed origins if needed
+    "http://localhost:5173",  # Local dev
+    "https://cyber-threat-dashboard-3mz9.onrender.com",  # Render frontend
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,  # Or ["*"] to allow all origins during development only
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -169,7 +169,6 @@ def fetch_ipinfo(ip: str, api_key: str):
     }
     cache[cache_key] = result
     return result
-
 
 @app.get("/threats/ip/{ip}")
 def get_threat(ip: str):
